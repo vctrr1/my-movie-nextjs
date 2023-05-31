@@ -1,0 +1,74 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    background-color: #05050536;
+    box-shadow: 0 24px 24px #646cff1a;
+}
+
+.logo {
+    height: 50px;
+}
+
+#navbar h3 a{
+    font-size: 29px;
+    color:  rgba(255, 255, 255, 0.87);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+#navbar h3{
+    will-change: filter;
+    transition: filter 300ms;
+}
+#navbar h3:hover{
+    filter: drop-shadow(0 0 2em #646cff);
+}
+
+#navbar form {
+    display: flex;
+    gap: 0.4rem;
+
+}
+#navbar input {
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 5px;
+    font-size: 16px;
+    transition: border-color 0.25s;
+    font-family: inherit;
+}
+
+#navbar form input:hover {
+    border-color: #646cff;
+}
+#navbar form input:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+#navbar form button {
+    border-radius: 15px;
+    border: 1px solid transparent;
+    padding: 6px 6px 3px 6px; 
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+#navbar form button:hover {
+    border-color: #646cff;
+}
+#navbar form button:focus,
+#navbar form button:focus-visible{
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+#nav-links {
+    transition: border-color 0.25s;
+}
+#nav-links:hover {
+    border-color: #646cff;
+}
