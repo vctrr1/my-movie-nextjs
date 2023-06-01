@@ -1,6 +1,6 @@
 import logo from '../../assets/movie.png'
 import { Link } from 'react-router-dom';
-import {BiSearchAlt2, BiStar, BiInfoCircle} from 'react-icons/bi'
+import {BiSearchAlt2, BiStar} from 'react-icons/bi'
 import { IconContext } from 'react-icons';
 import './NavBar.css';
 
@@ -24,7 +24,6 @@ const NavBar = () => {
                     <Link to='/favorits'> 
                         <BiStar/>
                     </Link>
-                    <Link to='/sobre' style={{ marginLeft: '18px'}}><BiInfoCircle/></Link>
                 </IconContext.Provider>
             </div>
         </nav>

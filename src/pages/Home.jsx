@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-
+import MovieCard from "../components/movieCard/MovieCard";
+import './HomeSearch.css'
 const apiKey = import.meta.env.VITE_API_KEY
 const moviesURL = import.meta.env.VITE_API
 
@@ -26,7 +27,7 @@ const Home = () => {
                 {topRatedMovies.length === 0 && <p>Carregando...</p>}
                 {
                     topRatedMovies.map((movie) => 
-                        <p key={movie.id}>{movie.title}</p>
+                        <MovieCard movie={movie} key={movie.id}/>
                     )
                 }
             </div>
