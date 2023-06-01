@@ -1,10 +1,23 @@
 import logo from '../../assets/movie.png'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
+import { useState } from 'react';
 import {BiSearchAlt2, BiStar} from 'react-icons/bi'
 import { IconContext } from 'react-icons';
 import './NavBar.css';
 
 const NavBar = () => {
+
+    const[search, setSearch] = useState("")
+    const navigate = useNavigate()
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        if(!search){
+            return
+        }
+        navigate(`/search?q=${search}`)
+    }
+
     return (
         <nav id="navbar">
             <h3>
@@ -13,8 +26,8 @@ const NavBar = () => {
                     My Movies
                 </Link>
             </h3>
-            <form>
-                <input type="text" placeholder='Pesquise um filme aqui!'/>
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder='Pesquise um filme aqui!' onChange={(e) => setSearch(e.target.value)} value={search}/>
                 <button type='submit'>
                     <BiSearchAlt2/>
                 </button>

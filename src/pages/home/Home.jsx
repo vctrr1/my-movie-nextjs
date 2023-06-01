@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import MovieCard from "../components/movieCard/MovieCard";
-import './HomeSearch.css'
+import MovieCard from "../../components/movieCard/MovieCard";
+import '../home/Home.css'
+
 const apiKey = import.meta.env.VITE_API_KEY
 const moviesURL = import.meta.env.VITE_API
 
@@ -13,21 +14,19 @@ const Home = () => {
         const res = await fetch(url)
         const data = await res.json()
         setTopRated(data.results)
-        console.log(data)
 
     }
     const getUpcomingMovies = async (url) => {
         const res = await fetch(url)
         const data = await res.json()
         setUpcomingMovies(data.results)
-        console.log(data)
+
 
     }
     const getPopularMovies = async (url) => {
         const res = await fetch(url)
         const data = await res.json()
         setPopularMovies(data.results)
-        console.log(data)
 
     }
 

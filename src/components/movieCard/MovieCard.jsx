@@ -5,6 +5,8 @@ import './MovieCard.css'
 const imageURL = import.meta.env.VITE_IMG
 
 const MovieCard = ({movie}) => {
+    const vote= movie.vote_average
+
     return(
         <div className="movie-card">
             <Link to={`/movie/${movie.id}`}>
@@ -12,7 +14,7 @@ const MovieCard = ({movie}) => {
             </Link>
             <h2>{movie.title}</h2>
             <p>
-                <FaStar/>{movie.vote_average}/10
+                <FaStar/>{vote.toFixed(1)}/10
             </p>
         </div>
     )
