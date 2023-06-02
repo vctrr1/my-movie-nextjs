@@ -43,20 +43,20 @@ const Home = () => {
 
     return (
         <div className="container">
-            <h2 className="title">Filmes Melhores Avaliados</h2>
-            <div className="movies-container">
-                {topRatedMovies.length === 0 && <p>Carregando...</p>}
-                {
-                    topRatedMovies.map((movie) => 
-                        <MovieCard movie={movie} key={movie.id}/>
-                    )
-                }
-            </div>
             <h2 className="title">Em Brave</h2>
             <div className="movies-container">
                 {upcomingMovies.length === 0 && <p>Carregando...</p>}
                 {
                     upcomingMovies.map((movie) => 
+                        <MovieCard movie={movie} key={movie.id}/>
+                    )
+                }
+            </div>
+            <h2 className="title">Filmes Melhores Avaliados</h2>
+            <div className="movies-container">
+                {topRatedMovies.length === 0 && <p>Carregando...</p>}
+                {
+                    topRatedMovies.map((movie) => 
                         <MovieCard movie={movie} key={movie.id}/>
                     )
                 }

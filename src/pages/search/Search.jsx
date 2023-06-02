@@ -26,7 +26,7 @@ const Search = () => {
 
         getMovies(searchQueryMoviesURL)
 
-    },[query])
+    },[query]) //sempre que mudar o query ele executa novamente o useEffect()
 
     return (
         <div className="container">
