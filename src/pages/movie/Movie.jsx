@@ -25,12 +25,22 @@ const Movie = () => {
       getMovies(movieURL)
   },[id])
 
+  const getDataFormated = () => {
+    const dateOrig = movie.release_date
+    const timesTemp = Date.parse(dateOrig)
+    const date = new Date(timesTemp)
+    const formatedDate = Intl.DateTimeFormat('pt-br', {
+      dateStyle: "long"
+    })
+    return formatedDate.format(date)
+  }
+
   return <div className="movie">{movie && <>
     <img src={imageURL + movie.poster_path} alt={movie.title} className="imgMovie"/>
     <div className="details">
       <h1 className="movieTitle">{movie.title}</h1>
       <span> Sinopse: {movie.overview}</span>
-      <span>Data de Lançamento: {movie.release_date}</span>
+      <span>Data de Lançamento: {getDataFormated()}</span>
       <button><AiFillStar/></button>
     </div>
   </>}</div>;
