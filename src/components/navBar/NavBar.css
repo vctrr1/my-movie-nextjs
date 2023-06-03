@@ -10,6 +10,12 @@
 
 .logo {
     height: 50px;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cff);
 }
 
 #navbar h3 a{
@@ -19,13 +25,6 @@
     align-items: center;
     text-decoration: none !important;
     margin-top: 11px;
-}
-#navbar h3{
-    will-change: filter;
-    transition: filter 300ms;
-}
-#navbar h3:hover{
-    filter: drop-shadow(0 0 2em #646cff);
 }
 
 #navbar form {
