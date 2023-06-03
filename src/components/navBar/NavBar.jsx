@@ -1,7 +1,7 @@
 import logo from '../../assets/movie.png'
 import { Link, useNavigate} from 'react-router-dom';
 import { useState } from 'react';
-import {BiSearchAlt2, BiStar} from 'react-icons/bi'
+import {BiSearchAlt2} from 'react-icons/bi'
 import { IconContext } from 'react-icons';
 import './NavBar.css';
 
@@ -35,7 +35,7 @@ const NavBar = () => {
             <div className='nav-links'>
                 <IconContext.Provider value={{ size: '24px', color:'rgb(255, 255, 255, 0.87)'}}>
                     <Link to='/favorits'> 
-                        <BiStar/>
+                        <a>Favoritos</a>
                     </Link>
                 </IconContext.Provider>
             </div>

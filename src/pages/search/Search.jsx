@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom"; //permite pegar a query string 
 import MovieCard from '../../components/movieCard/MovieCard'
 import '../search/Search.css'
+import LoadingIcons from 'react-loading-icons'
 
 const searchURL = import.meta.env.VITE_SEARCH
 const apiKey = import.meta.env.VITE_API_KEY
@@ -32,7 +33,7 @@ const Search = () => {
         <div className="container">
             <h2 className="titleSearch">Pesquisando: <span className="textSearch">{query}</span></h2>
             <div className="movies-container">
-                {movie.length === 0 && <p>Carregando...</p>}
+                {movie.length === 0 && <LoadingIcons.Circles/>}
                 {
                     movie.map((movie) => 
                         <MovieCard movie={movie} key={movie.id}/>

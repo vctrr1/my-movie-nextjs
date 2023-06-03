@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import MovieCard from "../../components/movieCard/MovieCard";
 import '../home/Home.css'
+import LoadingIcons from 'react-loading-icons'
 
 const apiKey = import.meta.env.VITE_API_KEY
 const moviesURL = import.meta.env.VITE_API
@@ -45,7 +46,7 @@ const Home = () => {
         <div className="container">
             <h2 className="title">Em Brave</h2>
             <div className="movies-container">
-                {upcomingMovies.length === 0 && <p>Carregando...</p>}
+                {upcomingMovies.length === 0 && <LoadingIcons.Circles />}
                 {
                     upcomingMovies.map((movie) => 
                         <MovieCard movie={movie} key={movie.id}/>
@@ -54,7 +55,7 @@ const Home = () => {
             </div>
             <h2 className="title">Filmes Melhores Avaliados</h2>
             <div className="movies-container">
-                {topRatedMovies.length === 0 && <p>Carregando...</p>}
+                {topRatedMovies.length === 0 && <LoadingIcons.Circles/>}
                 {
                     topRatedMovies.map((movie) => 
                         <MovieCard movie={movie} key={movie.id}/>
@@ -63,7 +64,7 @@ const Home = () => {
             </div>
             <h2 className="title">Populares</h2>
             <div className="movies-container">
-                {popularMovies.length === 0 && <p>Carregando...</p>}
+                {popularMovies.length === 0 && <LoadingIcons.Circles />}
                 {
                     popularMovies.map((movie) => 
                         <MovieCard movie={movie} key={movie.id}/>

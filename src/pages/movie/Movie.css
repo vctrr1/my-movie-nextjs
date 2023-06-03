@@ -2,12 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1145px;
     border-radius: 0.8rem;
-    margin: 4rem;
+    margin: 4rem auto; 
     background: rgb(161,161,161);
     background: radial-gradient(circle, rgba(161, 161, 161, 0.185) 0%, rgba(24, 24, 24, 0.377) 100%);
     height: fit-content;
     box-shadow: 9px 10px 9px #646cff42;
+}
+
+.movie svg {
+    color: #646cff;
 }
 
 .imgMovie {
@@ -26,8 +31,35 @@
     margin-left: 4rem;
 }
 
-span {
+h3 {
+    font-size: medium;
+    font-weight: 500;
     padding-right:  4rem;
     line-height: 150%;
     margin-bottom: 1rem;
+}
+
+.buttonFV {
+    margin-top: 4rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #fff;
+    background-color: #6654da;
+    padding: 9px 13px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.4s;
+
+}
+
+.buttonFV:hover {
+    background: #6654daa9;
+}
+  
+.buttonFV {
+    display: inline-block; 
+    margin-left: 7.7rem;
 }
