@@ -1,12 +1,17 @@
-import './Favorits.css'
+import "./Favorits.css";
+import movies from "../../server/data.json";
+import MovieCard from "../../components/movieCard/MovieCard";
 
 const Favorits = () => {
-    return (
-        <div className="containerFav">
+  const data = Object.values(movies);
 
-            <h1>Meus Filmes</h1>
-        </div>  
-    )
-}
+  return (
+    <div>
+      {data.map((item) => (
+        <MovieCard movie={item} key={item.id} />
+      ))}
+    </div>
+  );
+};
 
 export default Favorits;

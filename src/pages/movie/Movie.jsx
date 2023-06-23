@@ -21,7 +21,7 @@ const Movie = () => {
   useEffect(() => {
     const movieURL = `${moviesURL}${id}?${apiKey}`;
     getMovies(movieURL);
-  }, [id]);
+  }, [id]); //toda vez q o id mudar ele chama o useEffect
 
   const formatCurrency = (number) => {
     return number.toLocaleString("en-us", {
