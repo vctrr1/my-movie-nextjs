@@ -1,0 +1,467 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/9t0tJXcOdWwwxmGTk112HGDaT0Q.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "homepage": "https://theavenue.film/movies/the-black-demon",
+    "id": 890771,
+    "imdb_id": "tt10279472",
+    "original_language": "en",
+    "original_title": "The Black Demon",
+    "overview": "Oilman Paul Sturges' idyllic family vacation turns into a nightmare when they encounter a ferocious megalodon shark that will stop at nothing to protect its territory. Stranded and under constant attack, Paul and his family must somehow find a way to get his family back to shore alive before it strikes again in this epic battle between humans and nature.",
+    "popularity": 897.877,
+    "poster_path": "/uiFcFIjig0YwyNmhoxkxtAAVIL2.jpg",
+    "production_companies": [
+      {
+        "id": 78193,
+        "logo_path": "/4fFGVQ0XYnkb9n0CbH6xc0aHtBM.png",
+        "name": "Mucho Mas Media",
+        "origin_country": "US"
+      },
+      {
+        "id": 151485,
+        "logo_path": "/8WMlxjc69DhHc8D5wbEN4mkU9rY.png",
+        "name": "Silk Mass",
+        "origin_country": "US"
+      },
+      {
+        "id": 185127,
+        "logo_path": "/lD5UjvX5MsbIwbZJvdC5aee1nwm.png",
+        "name": "The Avenue Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 76991,
+        "logo_path": "/pQjdvbv4y9yuIDSHDEHc9ijJKaS.png",
+        "name": "Highland Film Group",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "MX",
+        "name": "Mexico"
+      },
+      {
+        "iso_3166_1": "DO",
+        "name": "Dominican Republic"
+      }
+    ],
+    "release_date": "2023-04-26",
+    "revenue": 0,
+    "runtime": 100,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Nature bites back.",
+    "title": "The Black Demon",
+    "video": false,
+    "vote_average": 6.316,
+    "vote_count": 201
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/cKE9qZqYtF4jimf0GFOqKfy7NEU.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "http://nohardfeelingsmovie.com",
+    "id": 884605,
+    "imdb_id": "tt15671028",
+    "original_language": "en",
+    "original_title": "No Hard Feelings",
+    "overview": "On the brink of losing her childhood home, Maddie discovers an intriguing job listing: wealthy helicopter parents looking for someone to “date” their introverted 19-year-old son, Percy, before he leaves for college. To her surprise, Maddie soon discovers the awkward Percy is no sure thing.",
+    "popularity": 219.053,
+    "poster_path": "/5xeNPGbM8ImVdJACUoGpXT8Pxx3.jpg",
+    "production_companies": [
+      {
+        "id": 117188,
+        "logo_path": null,
+        "name": "Excellent Cadaver",
+        "origin_country": "US"
+      },
+      {
+        "id": 86647,
+        "logo_path": null,
+        "name": "Odenkirk Provissiero Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2023-06-15",
+    "revenue": 0,
+    "runtime": 103,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Pretty. Awkward.",
+    "title": "No Hard Feelings",
+    "video": false,
+    "vote_average": 5.167,
+    "vote_count": 18
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/sp7MPK2K60LLd7A6zjHKsfgjFil.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 27,
+        "name": "Horror"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "homepage": "",
+    "id": 296271,
+    "imdb_id": "tt9663168",
+    "original_language": "en",
+    "original_title": "The Devil Conspiracy",
+    "overview": "The hottest biotech company in the world has discovered they can clone history’s most influential people from the dead. Now, they are auctioning clones of Michelangelo, Galileo, Vivaldi, and others for tens of millions of dollars to the world’s ultra-rich. But when they steal the Shroud of Turin and clone the DNA of Jesus Christ, all hell breaks loose.",
+    "popularity": 136.663,
+    "poster_path": "/2lUYbD2C3XSuwqMUbDVDQuz9mqz.jpg",
+    "production_companies": [
+      {
+        "id": 20473,
+        "logo_path": "/yhe5gpAhQicancYMbFzAXARrdzl.png",
+        "name": "Czech Anglo Productions",
+        "origin_country": "CZ"
+      },
+      {
+        "id": 195076,
+        "logo_path": null,
+        "name": "Third Day Production",
+        "origin_country": ""
+      },
+      {
+        "id": 195077,
+        "logo_path": "/Bes4s8ebbw4QxleUTDztAyZldY.png",
+        "name": "MBM3 Films",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "CZ",
+        "name": "Czech Republic"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2023-01-13",
+    "revenue": 0,
+    "runtime": 111,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Italian",
+        "iso_639_1": "it",
+        "name": "Italiano"
+      }
+    ],
+    "status": "Released",
+    "tagline": "The war of angels has come to earth.",
+    "title": "The Devil Conspiracy",
+    "video": false,
+    "vote_average": 6.343,
+    "vote_count": 180
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/fk6N4nQMqgaGHX4eBHisw1Ptt3S.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 53,
+        "name": "Thriller"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "",
+    "id": 869612,
+    "imdb_id": "tt15342244",
+    "original_language": "en",
+    "original_title": "Master Gardener",
+    "overview": "Narvel Roth is a meticulous horticulturist who is devoted to tending the grounds of a beautiful estate and pandering to his employer, the wealthy dowager Mrs. Haverhill. When she demands that he take on her wayward and troubled niece, it unlocks dark secrets from a buried violent past.",
+    "popularity": 77.86,
+    "poster_path": "/afkyHDaMblwX2F1zJzMrTnPsDUH.jpg",
+    "production_companies": [
+      {
+        "id": 160098,
+        "logo_path": "/2Ghk32aU8R5c7tSoJ38wH52eBtf.png",
+        "name": "Kojo Studios",
+        "origin_country": "AU"
+      },
+      {
+        "id": 8714,
+        "logo_path": "/cLH8bzJW3voNXF8uYKPKr50sdWp.png",
+        "name": "Northern Lights Films",
+        "origin_country": "US"
+      },
+      {
+        "id": 182163,
+        "logo_path": null,
+        "name": "Ottocento Films",
+        "origin_country": "US"
+      },
+      {
+        "id": 182164,
+        "logo_path": "/7xzi93adGRc6wrlS8Z30JzETTWK.png",
+        "name": "Flickstar",
+        "origin_country": "AU"
+      },
+      {
+        "id": 2395,
+        "logo_path": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
+        "name": "HanWay Films",
+        "origin_country": "GB"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "AU",
+        "name": "Australia"
+      },
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2023-05-19",
+    "revenue": 563772,
+    "runtime": 111,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "The seeds of love grow like the seeds of hate.",
+    "title": "Master Gardener",
+    "video": false,
+    "vote_average": 6.325,
+    "vote_count": 40
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/o3YleBe0QGNNlUqm6CnJVqGQQH4.jpg",
+    "belongs_to_collection": null,
+    "budget": 35000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      }
+    ],
+    "homepage": "https://a24films.com/films/beau-is-afraid",
+    "id": 798286,
+    "imdb_id": "tt13521006",
+    "original_language": "en",
+    "original_title": "Beau Is Afraid",
+    "overview": "A paranoid man embarks on an epic odyssey to get home to his mother.",
+    "popularity": 268.05,
+    "poster_path": "/wgVkkjigF31r1nZV80uV0xNIoun.jpg",
+    "production_companies": [
+      {
+        "id": 41077,
+        "logo_path": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+        "name": "A24",
+        "origin_country": "US"
+      },
+      {
+        "id": 123620,
+        "logo_path": "/ePRhZ3yb09Ya6WMzCCBYopwIYbE.png",
+        "name": "Square Peg",
+        "origin_country": "US"
+      },
+      {
+        "id": 142269,
+        "logo_path": "/ggrWFqk5mPMks0vE3aCy3l9e0dv.png",
+        "name": "IPR.VC",
+        "origin_country": "FI"
+      },
+      {
+        "id": 103376,
+        "logo_path": "/zIFWe4fwWURazXSjz9tF60ihgbH.png",
+        "name": "Access Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "CA",
+        "name": "Canada"
+      },
+      {
+        "iso_3166_1": "FI",
+        "name": "Finland"
+      },
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2023-04-14",
+    "revenue": 10000000,
+    "runtime": 179,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "From his darkest fears comes the greatest adventure.",
+    "title": "Beau Is Afraid",
+    "video": false,
+    "vote_average": 7.013,
+    "vote_count": 340
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/zPcuuhwZFDzBTc66wtrLZ2qX5y4.jpg",
+    "belongs_to_collection": {
+      "id": 84,
+      "name": "Indiana Jones Collection",
+      "poster_path": "/lpxDrACKJhbbGOlwVMNz5YCj6SI.jpg",
+      "backdrop_path": "/6kh59mZizZsttZPR0HAdXk6Ve2n.jpg"
+    },
+    "budget": 300000000,
+    "genres": [
+      {
+        "id": 12,
+        "name": "Adventure"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      }
+    ],
+    "homepage": "https://movies.disney.com/indiana-jones-and-the-dial-of-destiny",
+    "id": 335977,
+    "imdb_id": "tt1462764",
+    "original_language": "en",
+    "original_title": "Indiana Jones and the Dial of Destiny",
+    "overview": "Finding himself in a new era, approaching retirement, Indy wrestles with fitting into a world that seems to have outgrown him. But as the tentacles of an all-too-familiar evil return in the form of an old rival, Indy must don his hat and pick up his whip once more to make sure an ancient and powerful artifact doesn't fall into the wrong hands.",
+    "popularity": 169.092,
+    "poster_path": "/y4zAHCRmS1wof5bUmEM9CZOYQ04.jpg",
+    "production_companies": [
+      {
+        "id": 1,
+        "logo_path": "/o86DbpburjxrqAzEDhXZcyE8pDb.png",
+        "name": "Lucasfilm Ltd.",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2023-06-28",
+    "revenue": 0,
+    "runtime": 154,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "A legend will face his destiny.",
+    "title": "Indiana Jones and the Dial of Destiny",
+    "video": false,
+    "vote_average": 5.375,
+    "vote_count": 4
+  }
+]
