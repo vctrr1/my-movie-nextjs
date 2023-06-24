@@ -19,7 +19,7 @@ app.delete("/db/delete-movie/:key", (req, res) => {
   const key = req.params.key;
   const filePath = "data.json";
 
-  fs.readFileSync(filePath, "utf-8", (err, data) => {
+  fs.readFile(filePath, "utf-8", (err, data) => {
     if (err) {
       console.error("Erro ao ler o arquivo:", err);
       res.status(500).send("Erro ao excluir o objeto JSON");
@@ -28,7 +28,7 @@ app.delete("/db/delete-movie/:key", (req, res) => {
 
     let jsonArray = [];
     try {
-      jsonArray.JSON.parse(data);
+      jsonArray = JSON.parse(data);
     } catch (err) {
       console.error("Erro ao fazer o parse do arquivo JSON:", err);
       res.status(500).send("Erro ao excluir o objeto JSON");

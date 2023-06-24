@@ -49,10 +49,10 @@ const Movie = () => {
     return `${horasF}:${minutosF}`;
   };
 
-  const saveObjectAsJson = (movie) => {
+  const saveMovieAsFavorite = (movie) => {
     const jsonData = JSON.stringify(movie, null, 2);
 
-    fetch("http://localhost:4100/db/save-json", {
+    fetch("http://localhost:4100/db/save-movie", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -105,7 +105,7 @@ const Movie = () => {
             <div className="buttonsMovie">
               <button
                 className="buttonFV"
-                onClick={() => saveObjectAsJson(movie)}
+                onClick={() => saveMovieAsFavorite(movie)}
               >
                 Favoritar
               </button>
