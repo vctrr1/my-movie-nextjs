@@ -15,58 +15,11 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.post("/db/save-json", (req, res) => {
-//   const objectData = req.body;
-//   const jsonData = JSON.stringify(objectData, null, 2);
-
-//   fs.appendFile("data.json", "," + jsonData + "\n", (err) => {
-//     if (err) {
-//       console.error("Erro ao salvar o objeto JSON:", err);
-//       res.status(500).send("Erro ao salvar o objetoo JSON");
-//     } else {
-//       console.log("Objeto JSON salvo com sucesso.");
-//       res.status(200).send("Objeto JSON salvo com sucesso.");
-//     }
-//   });
-// });
-
-// app.post("/db/save-json", (req, res) => {
-//   const objectData = req.body;
-//   const jsonData = JSON.stringify(objectData, null, 2);
-//   const filePath = "data.json";
-
-//   fs.readFile(filePath, "utf8", (err, data) => {
-//     if (err) {
-//       console.error("Erro ao ler o arquivo:", err);
-//       res.status(500).send("Erro ao salvar o objeto JSON");
-//       return;
-//     }
-
-//     let modifiedData = data.trim();
-
-//     if (modifiedData.length > 0) {
-//       modifiedData += ",";
-//     }
-
-//     modifiedData += jsonData;
-
-//     fs.writeFile(filePath, modifiedData, (err) => {
-//       if (err) {
-//         console.error("Erro ao salvar o objeto JSON:", err);
-//         res.status(500).send("Erro ao salvar o objeto JSON");
-//       } else {
-//         console.log("Objeto JSON salvo com sucesso.");
-//         res.status(200).send("Objeto JSON salvo com sucesso.");
-//       }
-//     });
-//   });
-// });
-
 app.post("/db/save-json", (req, res) => {
   const objectData = req.body;
   const filePath = "data.json";
 
-  fs.readFile(filePath, "utf8", (err, data) => {
+  fs.readFile(filePath, "utf-8", (err, data) => {
     if (err) {
       console.error("Erro ao ler o arquivo:", err);
       res.status(500).send("Erro ao salvar o objeto JSON");
@@ -84,6 +37,14 @@ app.post("/db/save-json", (req, res) => {
         res.status(500).send("Erro ao salvar o objeto JSON");
         return;
       }
+    }
+
+    const verifyExistingObject = jsonArray.find(
+      (obj) => obj.id == objectData.id
+    );
+    if (verifyExistingObject) {
+      console.log("Filme ja favoritado");
+      return;
     }
 
     jsonArray.push(objectData);
