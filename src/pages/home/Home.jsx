@@ -44,7 +44,7 @@ const Home = () => {
 
     return (
         <div className="container">
-            <h2 className="title">Em Brave</h2>
+            <h2 className="title">Em Breve</h2>
             <div className="movies-container">
                 {upcomingMovies.length === 0 && <LoadingIcons.Circles />}
                 {
